@@ -1,12 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+###### Overal description
 # The first function creates a special "matrix" object that can cache 
 # its inverse. The second function computes the inverse of the special "matrix"
 # returned by the first function. If the inverse has already been calculated
 # (and the matrix has not changed), then the cachesolve should retrieve the 
 # inverse from cache.
 
-## Write a short comment describing this function
+###### makeCacheMatrix description
 # The function makeCacheMatrix creates a special "matrix", which is really a 
 # list containing a function to:
 # 1. set the value of the matrix
@@ -40,7 +39,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+###### cacheSolve description
 # The function cacheSolve first checks if the mean has already been calculated.
 # If so, it gets the mean from the cache and skips the computatio. Otherwise, it
 # calculates the mean of the data and sets the value of the mean in the cache
